@@ -1,0 +1,51 @@
+.mainContainer {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 95%;
+}
+
+.degreeContainer {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #f76e11;
+  border-radius: 4px;
+}
+.degreeContainer p {
+  font-weight: bold;
+}
+
+.formContainer input {
+  padding: 12px;
+  width: 100%;
+  margin: 0 auto;
+}
+.formContainer input:focus {
+  outline-color: #f76e11;
+}
+
+.formContainer button {
+  padding: 12px;
+  width: 150px;
+  margin: 0 auto;
+  border-style: none;
+  background-color: #f76e11;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.formContainer button:hover {
+  background-color: #fcaa74;
+}

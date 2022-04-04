@@ -1,0 +1,43 @@
+.mainContainer {
+  display: none;
+  flex-direction: column;
+  gap: 130px;
+}
+
+.header {
+  margin: 0 auto;
+}
+
+.jokeContiner {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.jokeContiner button {
+  padding: 12px;
+  width: 150px;
+  margin: 0 auto;
+  border-style: none;
+  background-color: #f76e11;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.jokeContiner button:hover {
+  background-color: #fcaa74;
+}
+
+.joke {
+  border: 3px solid #f76e11;
+  width: 100%;
+  min-height: 40px;
+  padding: 4px;
+}
+.joke p {
+  width: 90%;
+  margin: 0 auto;
+}

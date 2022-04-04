@@ -1,0 +1,81 @@
+.header {
+  text-align: center;
+  margin-top: 30px;
+  color: #ad4805;
+}
+
+.appContainers {
+  padding: 20px;
+}
+.btnsContainers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-left: 1px solid #f76e11;
+  background-color: #f76e11;
+}
+
+.btnsContainers button {
+  border-style: none;
+  padding: 18px;
+  background-color: #f8c3a0;
+  width: 150px;
+  border-radius: 4px;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btnsContainers button:hover {
+  background-color: #f76e11;
+}
+
+.dottedTop {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #f76e11;
+  position: absolute;
+  left: 0.5%;
+  top: 0.5%;
+  z-index: 2;
+}
+
+.dottedBotton {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: #f76e11;
+  position: absolute;
+
+  left: 0.5%;
+  bottom: 0.5%;
+
+  z-index: 2;
+}
+
+@media screen and (max-width: 685px) {
+  .btnsContainers {
+    grid-row-start: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  .btnsContainers button {
+    align-self: center;
+    justify-self: center;
+  }
+  .dottedTop {
+    position: absolute;
+    bottom: 0.5%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .btnsContainers button {
+    width: 100px;
+    font-size: 15px;
+  }
+}
